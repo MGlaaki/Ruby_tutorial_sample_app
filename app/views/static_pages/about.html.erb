@@ -1,3 +1,17 @@
-<h1>About</h1>
+<%provide(:title,"About")%>
 
-This is the sample app for ruby on rails tutorial !
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=yield(:title)%> | Sample App</title>
+  </head>
+
+  <body>
+
+    <h1>About</h1>
+
+    This is the sample app for ruby on rails tutorial !
+
+  </body>
+
+</html>
